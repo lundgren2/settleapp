@@ -1,0 +1,23 @@
+Börja med att fixa en ssh nyckel.
+
+Öppna terminalen och stå i hemkatalogen.
+
+Skriv cd .ssh
+
+Skriv ssh-keygen
+
+öppna id_rsa.pub med valfri texteditor och kopiera hela nyckeln
+
+Gå till github->settings->SSH keys-> add SSH key
+
+I Title kan ni skriva i vilken dator ni sitter på typ
+
+I Key klistrar ni in det ni förut kopierade och sedan trycker Add key
+
+För att få in SettleApp repositoryt in i hemkatalogen så går ni till github och går in på repositoryt sen nere till vänster så kan man kopiera en länk där det står ssh clone, kopiera den länken.
+
+i terminalen då ni står i hemkatalogen eller vart ni nu vill att mappen ska hamna så kör ni kommandot git clone och sen länken ni koperiade.
+
+Nu ska mappen finnas.
+
+För att lägga till filer till repositoryt på github så kör ni kommandot git add sen filnamnet, sen kör ni kommandot git commit och sedan git push . Då ska filen ligga uppe på github
