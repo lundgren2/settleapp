@@ -20,4 +20,4 @@ i terminalen då ni står i hemkatalogen eller vart ni nu vill att mappen ska ha
 
 Nu ska mappen finnas.
 
-För att lägga till filer till repositoryt på github så kör ni kommandot git add sen filnamnet, sen kör ni kommandot git commit och sedan git push . Då ska filen ligga uppe på github
+För att lägga till filer till repositoryt på github så kör ni kommandot git add sen filnamnet, sen kör ni kommandot git commit, då kommer man till en editor där man kan skriva vilka ändringar man har gjort. sen är det bara spara och avsluta.  sedan git push . Då ska filen ligga uppe på github
