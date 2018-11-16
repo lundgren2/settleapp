@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333722231A363099009CF359 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 333722221A363099009CF359 /* CustomTableCell.m */; };
+		333722261A363519009CF359 /* Debt.m in Sources */ = {isa = PBXBuildFile; fileRef = 333722251A363519009CF359 /* Debt.m */; };
+		335F56FB19CB667D00E90B89 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335F56F919CB667D00E90B89 /* Main_iPhone.storyboard */; };
+		33622E1019CAE161006AA3AA /* login-page-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33622E0F19CAE161006AA3AA /* login-page-bg.jpg */; };
+		33622E1419CB420E006AA3AA /* SettleApp-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 33622E1319CB420E006AA3AA /* SettleApp-logo.png */; };
+		338E5F491A37D915002494EC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E5F481A37D915002494EC /* SWRevealViewController.m */; };
+		338E5F4C1A37DBF0002494EC /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E5F4A1A37DBF0002494EC /* NavigationViewController.m */; };
+		339919BD19BE793400E0DC65 /* SettleApp-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 339919BC19BE793400E0DC65 /* SettleApp-1024px.png */; };
+		33B4C96619BE386F0000E64F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B4C96519BE386F0000E64F /* Foundation.framework */; };
+		33B4C96819BE386F0000E64F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B4C96719BE386F0000E64F /* CoreGraphics.framework */; };
+		33B4C96A19BE386F0000E64F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B4C96919BE386F0000E64F /* UIKit.framework */; };
+		33B4C97019BE386F0000E64F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B4C96E19BE386F0000E64F /* InfoPlist.strings */; };
+		33B4C97219BE386F0000E64F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4C97119BE386F0000E64F /* main.m */; };
+		33B4C97619BE386F0000E64F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4C97519BE386F0000E64F /* AppDelegate.m */; };
+		33B4C97F19BE386F0000E64F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4C97E19BE386F0000E64F /* ViewController.m */; };
+		33B4C98119BE386F0000E64F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B4C98019BE386F0000E64F /* Images.xcassets */; };
+		33B4C98819BE38700000E64F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B4C98719BE38700000E64F /* XCTest.framework */; };
+		33B4C98919BE38700000E64F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B4C96519BE386F0000E64F /* Foundation.framework */; };
+		33B4C98A19BE38700000E64F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B4C96919BE386F0000E64F /* UIKit.framework */; };
+		33B4C99219BE38700000E64F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B4C99019BE38700000E64F /* InfoPlist.strings */; };
+		33B4C99419BE38700000E64F /* SettleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4C99319BE38700000E64F /* SettleAppTests.m */; };
+		33F7E64A19BE562000DA241D /* SettleApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F7E64919BE562000DA241D /* SettleApp.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B4C98B19BE38700000E64F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B4C95A19BE386F0000E64F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B4C96119BE386F0000E64F;
+			remoteInfo = SettleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333722211A363099009CF359 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		333722221A363099009CF359 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		333722241A363519009CF359 /* Debt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debt.h; sourceTree = "<group>"; };
+		333722251A363519009CF359 /* Debt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Debt.m; sourceTree = "<group>"; };
+		335F56FA19CB667D00E90B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		33622E0F19CAE161006AA3AA /* login-page-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login-page-bg.jpg"; sourceTree = "<group>"; };
+		33622E1319CB420E006AA3AA /* SettleApp-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SettleApp-logo.png"; sourceTree = "<group>"; };
+		338E5F471A37D915002494EC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		338E5F481A37D915002494EC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		338E5F4A1A37DBF0002494EC /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		338E5F4B1A37DBF0002494EC /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		339919BC19BE793400E0DC65 /* SettleApp-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SettleApp-1024px.png"; path = "Filer/SettleApp-1024px.png"; sourceTree = "<group>"; };
+		33B4C96219BE386F0000E64F /* SettleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B4C96519BE386F0000E64F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33B4C96719BE386F0000E64F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33B4C96919BE386F0000E64F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33B4C96D19BE386F0000E64F /* SettleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SettleApp-Info.plist"; sourceTree = "<group>"; };
+		33B4C96F19BE386F0000E64F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B4C97119BE386F0000E64F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33B4C97319BE386F0000E64F /* SettleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SettleApp-Prefix.pch"; sourceTree = "<group>"; };
+		33B4C97419BE386F0000E64F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33B4C97519BE386F0000E64F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33B4C97D19BE386F0000E64F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33B4C97E19BE386F0000E64F /* ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ViewController.m; sourceTree = "<group>"; };
+		33B4C98019BE386F0000E64F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33B4C98619BE38700000E64F /* SettleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B4C98719BE38700000E64F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33B4C98F19BE38700000E64F /* SettleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SettleAppTests-Info.plist"; sourceTree = "<group>"; };
+		33B4C99119BE38700000E64F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B4C99319BE38700000E64F /* SettleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettleAppTests.m; sourceTree = "<group>"; };
+		33EED2321A2357F80059183D /* users.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = users.h; sourceTree = "<group>"; };
+		33F7E64919BE562000DA241D /* SettleApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SettleApp.png; path = SettleApp/SettleApp.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B4C95F19BE386F0000E64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B4C96819BE386F0000E64F /* CoreGraphics.framework in Frameworks */,
+				33B4C96A19BE386F0000E64F /* UIKit.framework in Frameworks */,
+				33B4C96619BE386F0000E64F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B4C98319BE38700000E64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B4C98819BE38700000E64F /* XCTest.framework in Frameworks */,
+				33B4C98A19BE38700000E64F /* UIKit.framework in Frameworks */,
+				33B4C98919BE38700000E64F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338E5F461A37D915002494EC /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				338E5F471A37D915002494EC /* SWRevealViewController.h */,
+				338E5F481A37D915002494EC /* SWRevealViewController.m */,
+			);
+			path = SlideOutMenuFiles;
+			sourceTree = "<group>";
+		};
+		33B4C95919BE386F0000E64F = {
+			isa = PBXGroup;
+			children = (
+				33B4C96B19BE386F0000E64F /* SettleApp */,
+				33B4C98D19BE38700000E64F /* SettleAppTests */,
+				33B4C96419BE386F0000E64F /* Frameworks */,
+				33B4C96319BE386F0000E64F /* Products */,
+				33622E1319CB420E006AA3AA /* SettleApp-logo.png */,
+				339919BC19BE793400E0DC65 /* SettleApp-1024px.png */,
+				33622E0F19CAE161006AA3AA /* login-page-bg.jpg */,
+				33F7E64919BE562000DA241D /* SettleApp.png */,
+			);
+			sourceTree = "<group>";
+		};
+		33B4C96319BE386F0000E64F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B4C96219BE386F0000E64F /* SettleApp.app */,
+				33B4C98619BE38700000E64F /* SettleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B4C96419BE386F0000E64F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B4C96519BE386F0000E64F /* Foundation.framework */,
+				33B4C96719BE386F0000E64F /* CoreGraphics.framework */,
+				33B4C96919BE386F0000E64F /* UIKit.framework */,
+				33B4C98719BE38700000E64F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33B4C96B19BE386F0000E64F /* SettleApp */ = {
+			isa = PBXGroup;
+			children = (
+				33B4C97419BE386F0000E64F /* AppDelegate.h */,
+				33B4C97519BE386F0000E64F /* AppDelegate.m */,
+				335F56F919CB667D00E90B89 /* Main_iPhone.storyboard */,
+				33B4C97D19BE386F0000E64F /* ViewController.h */,
+				33B4C97E19BE386F0000E64F /* ViewController.m */,
+				338E5F4A1A37DBF0002494EC /* NavigationViewController.m */,
+				338E5F4B1A37DBF0002494EC /* NavigationViewController.h */,
+				33B4C98019BE386F0000E64F /* Images.xcassets */,
+				33B4C96C19BE386F0000E64F /* Supporting Files */,
+				333722241A363519009CF359 /* Debt.h */,
+				333722251A363519009CF359 /* Debt.m */,
+				333722211A363099009CF359 /* CustomTableCell.h */,
+				333722221A363099009CF359 /* CustomTableCell.m */,
+				33EED2321A2357F80059183D /* users.h */,
+			);
+			path = SettleApp;
+			sourceTree = "<group>";
+		};
+		33B4C96C19BE386F0000E64F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				338E5F461A37D915002494EC /* SlideOutMenuFiles */,
+				33B4C96D19BE386F0000E64F /* SettleApp-Info.plist */,
+				33B4C96E19BE386F0000E64F /* InfoPlist.strings */,
+				33B4C97119BE386F0000E64F /* main.m */,
+				33B4C97319BE386F0000E64F /* SettleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33B4C98D19BE38700000E64F /* SettleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				33B4C99319BE38700000E64F /* SettleAppTests.m */,
+				33B4C98E19BE38700000E64F /* Supporting Files */,
+			);
+			path = SettleAppTests;
+			sourceTree = "<group>";
+		};
+		33B4C98E19BE38700000E64F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B4C98F19BE38700000E64F /* SettleAppTests-Info.plist */,
+				33B4C99019BE38700000E64F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B4C96119BE386F0000E64F /* SettleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B4C99719BE38700000E64F /* Build configuration list for PBXNativeTarget "SettleApp" */;
+			buildPhases = (
+				33B4C95E19BE386F0000E64F /* Sources */,
+				33B4C95F19BE386F0000E64F /* Frameworks */,
+				33B4C96019BE386F0000E64F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SettleApp;
+			productName = SettleApp;
+			productReference = 33B4C96219BE386F0000E64F /* SettleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B4C98519BE38700000E64F /* SettleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B4C99A19BE38700000E64F /* Build configuration list for PBXNativeTarget "SettleAppTests" */;
+			buildPhases = (
+				33B4C98219BE38700000E64F /* Sources */,
+				33B4C98319BE38700000E64F /* Frameworks */,
+				33B4C98419BE38700000E64F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B4C98C19BE38700000E64F /* PBXTargetDependency */,
+			);
+			name = SettleAppTests;
+			productName = SettleAppTests;
+			productReference = 33B4C98619BE38700000E64F /* SettleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B4C95A19BE386F0000E64F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tobias Lundgren";
+				TargetAttributes = {
+					33B4C96119BE386F0000E64F = {
+						DevelopmentTeam = W94SCYZEVR;
+					};
+					33B4C98519BE38700000E64F = {
+						TestTargetID = 33B4C96119BE386F0000E64F;
+					};
+				};
+			};
+			buildConfigurationList = 33B4C95D19BE386F0000E64F /* Build configuration list for PBXProject "SettleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B4C95919BE386F0000E64F;
+			productRefGroup = 33B4C96319BE386F0000E64F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B4C96119BE386F0000E64F /* SettleApp */,
+				33B4C98519BE38700000E64F /* SettleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B4C96019BE386F0000E64F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33622E1419CB420E006AA3AA /* SettleApp-logo.png in Resources */,
+				335F56FB19CB667D00E90B89 /* Main_iPhone.storyboard in Resources */,
+				33B4C98119BE386F0000E64F /* Images.xcassets in Resources */,
+				339919BD19BE793400E0DC65 /* SettleApp-1024px.png in Resources */,
+				33622E1019CAE161006AA3AA /* login-page-bg.jpg in Resources */,
+				33B4C97019BE386F0000E64F /* InfoPlist.strings in Resources */,
+				33F7E64A19BE562000DA241D /* SettleApp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B4C98419BE38700000E64F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B4C99219BE38700000E64F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B4C95E19BE386F0000E64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333722261A363519009CF359 /* Debt.m in Sources */,
+				33B4C97F19BE386F0000E64F /* ViewController.m in Sources */,
+				338E5F4C1A37DBF0002494EC /* NavigationViewController.m in Sources */,
+				33B4C97619BE386F0000E64F /* AppDelegate.m in Sources */,
+				33B4C97219BE386F0000E64F /* main.m in Sources */,
+				333722231A363099009CF359 /* CustomTableCell.m in Sources */,
+				338E5F491A37D915002494EC /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B4C98219BE38700000E64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B4C99419BE38700000E64F /* SettleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B4C98C19BE38700000E64F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B4C96119BE386F0000E64F /* SettleApp */;
+			targetProxy = 33B4C98B19BE38700000E64F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		335F56F919CB667D00E90B89 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335F56FA19CB667D00E90B89 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		33B4C96E19BE386F0000E64F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B4C96F19BE386F0000E64F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33B4C99019BE38700000E64F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B4C99119BE38700000E64F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B4C99519BE38700000E64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33B4C99619BE38700000E64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B4C99819BE38700000E64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SettleApp/SettleApp-Prefix.pch";
+				INFOPLIST_FILE = "SettleApp/SettleApp-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lundgren-Design.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33B4C99919BE38700000E64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SettleApp/SettleApp-Prefix.pch";
+				INFOPLIST_FILE = "SettleApp/SettleApp-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lundgren-Design.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33B4C99B19BE38700000E64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SettleApp.app/SettleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SettleApp/SettleApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SettleAppTests/SettleAppTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lundgren-Design.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33B4C99C19BE38700000E64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SettleApp.app/SettleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SettleApp/SettleApp-Prefix.pch";
+				INFOPLIST_FILE = "SettleAppTests/SettleAppTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lundgren-Design.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B4C95D19BE386F0000E64F /* Build configuration list for PBXProject "SettleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B4C99519BE38700000E64F /* Debug */,
+				33B4C99619BE38700000E64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B4C99719BE38700000E64F /* Build configuration list for PBXNativeTarget "SettleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B4C99819BE38700000E64F /* Debug */,
+				33B4C99919BE38700000E64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B4C99A19BE38700000E64F /* Build configuration list for PBXNativeTarget "SettleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B4C99B19BE38700000E64F /* Debug */,
+				33B4C99C19BE38700000E64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B4C95A19BE386F0000E64F /* Project object */;
+}
